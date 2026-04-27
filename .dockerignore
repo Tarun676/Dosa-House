@@ -1,0 +1,10 @@
+.git
+.github
+.gitignore
+.vscode
+dist
+node_modules
+Dockerfile
+.dockerignore
+implementation_plan.md
+task.md
