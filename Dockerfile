@@ -16,7 +16,7 @@ FROM nginx:alpine
 # Remove default nginx static assets
 RUN rm -rf /usr/share/nginx/html/*
 
-# Copy the static website artifacts from the builder stage
+# Copy the static website artifacts from the builder
 COPY --from=builder /app/dist /usr/share/nginx/html
 
 # Expose port 80
